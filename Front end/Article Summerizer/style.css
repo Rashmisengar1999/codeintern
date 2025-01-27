@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color:#f9c6c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.summerizer-article{
+    height: 300px;
+    width: 600px;
+    /*border: 1px solid black;*/
+    overflow-x: hidden;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.summary {
+    font-size: smaller;
+    text-align: justify;
+}
+#url{
+    height: 25px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn{
+    height: 25px;
+    width: 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+:hover.btn{
+    background-color: rgb(41, 206, 206);
+    color:rgb(152, 89, 11);
+}
